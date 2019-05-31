@@ -6,6 +6,7 @@ import dash_table
 # import pandas as pd
 from nsepy import get_history
 from datetime import datetime
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
